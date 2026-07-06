@@ -234,8 +234,8 @@ async def setup_hook() -> None:
 
 
 @bot.tree.command(
-    name="트랙패널",
-    description="트랙 역할 선택 버튼 패널을 생성합니다.",
+    name="showmethetrack",
+    descriptin="트랙 역할 선택 버튼 패널을 생성합니다.",
 )
 @app_commands.describe(
     title="패널 제목",
